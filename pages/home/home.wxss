@@ -1,1 +1,15 @@
 /* pages/home/home.wxss */
+
+.swiper-box {
+  padding: 32rpx;
+}
+
+.swiper-box swiper {
+  height: 320rpx;
+}
+
+.swiper-box swiper image {
+  width: 100%;
+  height: 100%;
+  border-radius: 22rpx;
+}
