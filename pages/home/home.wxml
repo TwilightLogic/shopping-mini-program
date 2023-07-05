@@ -1,5 +1,6 @@
 <!--pages/home/home.wxml-->
 <view class="page-box">
+
   <view class="swiper-box">
     <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
       <block wx:for="{{background}}" wx:key="*this">
@@ -10,6 +11,22 @@
       </block>
     </swiper>
   </view>
-  <view class="nav-box"></view>
+
+  <view class="nav-box">
+    <scroll-view scroll-x="true">
+      <view class="nav">
+        <view class="item current">全部</view>
+        <view class="item">荔枝</view>
+        <view class="item">三华李</view>
+        <view class="item">百香果</view>
+        <view class="item">黄皮</view>
+        <view class="item">香蕉</view>
+        <view class="item">芭乐</view>
+        <view class="item">其他</view>
+        <view class="item">其他</view>
+        <view class="item">其他</view>
+      </view>
+    </scroll-view>
+  </view>
   <view class="good-list"></view>
 </view>
