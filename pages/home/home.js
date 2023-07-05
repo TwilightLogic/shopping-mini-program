@@ -4,8 +4,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    background: ["../../static/images/pexels-elizabeth-tr-armstrong-635705.jpg", "../../static/images/pexels-lovefood-art-1437598.jpg", "../../static/images/pexels-daniel-reche-1556665.jpg"],
-    indicatorDots: true,
+    background: ["../../static/images/biscuit-medium.jpeg", "../../static/images/red-orange-medium.jpeg", "../../static/images/orange-medium.jpeg"],
+    indicatorDots: false,
     vertical: false,
     autoplay: true,
     interval: 5000,

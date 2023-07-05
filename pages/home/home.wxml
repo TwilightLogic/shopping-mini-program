@@ -1,6 +1,5 @@
 <!--pages/home/home.wxml-->
 <view class="page-box">
-
   <view class="swiper-box">
     <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
       <block wx:for="{{background}}" wx:key="*this">
@@ -12,21 +11,29 @@
     </swiper>
   </view>
 
-  <view class="nav-box">
-    <scroll-view scroll-x="true">
-      <view class="nav">
-        <view class="item current">全部</view>
-        <view class="item">荔枝</view>
-        <view class="item">三华李</view>
-        <view class="item">百香果</view>
-        <view class="item">黄皮</view>
-        <view class="item">香蕉</view>
-        <view class="item">芭乐</view>
-        <view class="item">其他</view>
-        <view class="item">其他</view>
-        <view class="item">其他</view>
+  <view class="item-list-container">
+    <h3 class="header--tertiary">Hello</h3>
+    <view class="register-container">
+      <p class="register-container--text">欢迎加入茂名xx会员</p>
+      <a href="#" class="register--cta">快速注册</a>
+    </view>
+    <view class="item-list">
+      <view class="item item--1">
+        <image src="/static/images/heart.svg"  class="item--icon"/>
+        <p class="item--name">好心优品</p>
       </view>
-    </scroll-view>
+      <view class="item item--2">
+        <image src="/static/images/paper-plane.svg"  class="item--icon"/>
+        <p class="item--name">茂名云集</p>
+      </view>
+      <view class="item item--3">
+        <image src="/static/images/shopping-bag.svg"  class="item--icon"/>
+        <p class="item--name">明湖云购</p>
+      </view>
+    </view>
   </view>
-  <view class="good-list"></view>
+
+  <view class="ad-box">
+    dasdsadsad 
+  </view>
 </view>
