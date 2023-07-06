@@ -7,7 +7,7 @@
 .category-page .category-page-header {
   display: flex;
   flex-direction: column;
-  border-bottom: 2rpx solid rgba(0, 0, 0, .1);
+  border-bottom: 2rpx solid rgba(230, 126, 34, .15);
 }
 
 .category-page .category-page-header .category-header--text {
@@ -19,7 +19,7 @@
 }
 
 .category-page .category-page-header .category-header--tertiary {
-  color: #333;
+  color: #170d03;
   font-weight: 500;
   font-size: 48rpx;
   letter-spacing: -1rpx;
@@ -37,7 +37,7 @@
 }
 
 .category-page .category-box-swiper .nav .item {
-  color: #333;
+  color: #170d03;
   font-weight: 400;
   font-size: 24rpx;
   text-align: left;

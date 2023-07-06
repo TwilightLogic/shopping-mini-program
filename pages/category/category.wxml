@@ -24,5 +24,12 @@
     </scroll-view>
   </view>
 
-  <view class="item-list"></view>
+  <view class="grid-container">
+    <view class="grid-container-item">
+      <image src="" mode=""/>
+      <view class="grid-container-item-desc">
+        
+      </view>
+    </view>
+  </view>
 </view>

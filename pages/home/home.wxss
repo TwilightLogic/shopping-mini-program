@@ -60,6 +60,7 @@ body {
   color: #fdf2e9;
   border-radius: 22rpx;
   font-size: 24rpx;
+  font-weight: 500;
 }
 
 .item-list {
