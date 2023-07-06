@@ -7,7 +7,7 @@
 .category-page .category-page-header {
   display: flex;
   flex-direction: column;
-  border-bottom: 2rpx solid rgba(230, 126, 34, .15);
+  border-bottom: 2rpx solid rgba(230, 126, 34, 0.15);
 }
 
 .category-page .category-page-header .category-header--text {
@@ -15,7 +15,7 @@
   color: #666;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: -.9rpx;
+  letter-spacing: -0.9rpx;
 }
 
 .category-page .category-page-header .category-header--tertiary {
@@ -44,5 +44,49 @@
 }
 
 .category-page .category-box-swiper .nav .item.current {
-  border-bottom: 2px solid #e67e22;
+  border-bottom: 2px solid #45260a;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20rpx;
+  margin-top: 20rpx;
+  color: #170d03;
+}
+
+.grid-container .grid-container-item image {
+  width: 100%;
+  height: 320rpx;
+}
+
+.grid-container .grid-container-item .grid-container-item-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.grid-container
+  .grid-container-item
+  .grid-container-item-desc
+  .header-tertiary {
+    font-size: 28rpx;
+    font-weight: 500;
+}
+
+.grid-container
+  .grid-container-item
+  .grid-container-item-desc
+  .item-desc--text {
+    font-size: 24rpx;
+  }
+
+  .grid-container
+  .grid-container-item
+  .grid-container-item-desc
+  .item-desc--text
+  span {
+    font-weight: 600;
+  }

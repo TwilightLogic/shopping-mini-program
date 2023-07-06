@@ -25,10 +25,70 @@
   </view>
 
   <view class="grid-container">
+    <!-- 1 -->
     <view class="grid-container-item">
-      <image src="" mode=""/>
+      <image class="grid-container-item--image" src="../../static/images/orange-medium.jpeg" />
       <view class="grid-container-item-desc">
-        
+        <h4 class="header-tertiary">埃塞尔比亚 挂耳咖啡</h4>
+        <p class="item-desc--text">
+          ¥
+          <span>188</span>
+        </p>
+      </view>
+    </view>
+    <!-- 2 -->
+    <view class="grid-container-item">
+      <image class="grid-container-item--image" src="../../static/images/orange-medium.jpeg" />
+      <view class="grid-container-item-desc">
+        <h4 class="header-tertiary">埃塞尔比亚 挂耳咖啡</h4>
+        <p class="item-desc--text">
+          ¥
+          <span>188</span>
+        </p>
+      </view>
+    </view>
+    <!-- 3 -->
+    <view class="grid-container-item">
+      <image class="grid-container-item--image" src="../../static/images/orange-medium.jpeg" />
+      <view class="grid-container-item-desc">
+        <h4 class="header-tertiary">埃塞尔比亚 挂耳咖啡</h4>
+        <p class="item-desc--text">
+          ¥
+          <span>188</span>
+        </p>
+      </view>
+    </view>
+    <!-- 4 -->
+    <view class="grid-container-item">
+      <image class="grid-container-item--image" src="../../static/images/orange-medium.jpeg" />
+      <view class="grid-container-item-desc">
+        <h4 class="header-tertiary">埃塞尔比亚 挂耳咖啡</h4>
+        <p class="item-desc--text">
+          ¥
+          <span>188</span>
+        </p>
+      </view>
+    </view>
+    <!-- 5 -->
+    <view class="grid-container-item">
+      <image class="grid-container-item--image" src="../../static/images/orange-medium.jpeg" />
+      <view class="grid-container-item-desc">
+        <h4 class="header-tertiary">埃塞尔比亚 挂耳咖啡</h4>
+        <p class="item-desc--text">
+          ¥
+          <span>188</span>
+        </p>
+      </view>
+    </view>
+    <!-- 6 -->
+    <view class="grid-container-item">
+      <image class="grid-container-item--image" src="../../static/images/orange-medium.jpeg" />
+      <view class="grid-container-item-desc">
+        <h4 class="header-tertiary">埃塞尔比亚 挂耳咖啡</h4>
+        <p class="item-desc--text">
+          ¥
+          <span>188</span>
+        </p>
       </view>
     </view>
   </view>
