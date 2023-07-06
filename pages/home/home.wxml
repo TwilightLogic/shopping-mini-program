@@ -35,7 +35,7 @@
   </view>
   <view class="vip-box">
     <view class="vip-box-description">
-      <h3 class="header--tertiary">我的会员</h3>
+      <h3 class="header--tertiary">我的会员 Member</h3>
       <view class="points-container">
         <p class="points-container--text">当前积分</p>
         <p class="points-container--points"> <span> 0</span>分</p>

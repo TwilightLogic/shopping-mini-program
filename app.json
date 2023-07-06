@@ -4,10 +4,11 @@
     "pages/detail/detail",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/order/order",
+    "pages/category/category",
     "pages/shopcart/shopcart",
     "pages/my/my",
-    "custom-tab-bar/index"
+    "custom-tab-bar/index",
+    "components/navigation-bar/navigation-bar"
   ],
   "tabBar": {
     "custom": false,
@@ -21,16 +22,16 @@
         "selectedIconPath": "static/images/home.png"
       },
       {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "static/images/list-outline.png",
+        "selectedIconPath": "static/images/list.png"
+      },
+      {
         "pagePath": "pages/shopcart/shopcart",
         "text": "购物车",
         "iconPath": "static/images/cart-outline.png",
         "selectedIconPath": "static/images/cart.png"
-      },
-      {
-        "pagePath": "pages/order/order",
-        "text": "订单",
-        "iconPath": "static/images/list-outline.png",
-        "selectedIconPath": "static/images/list.png"
       },
       {
         "pagePath": "pages/my/my",
@@ -44,7 +45,8 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#e67e22",
     "navigationBarTitleText": "Lucas",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

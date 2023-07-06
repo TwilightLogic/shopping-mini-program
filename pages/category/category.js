@@ -1,4 +1,4 @@
-// custom-tab-bar/index.js
+// pages/category/category.js
 Page({
 
   /**
