@@ -7,7 +7,7 @@ Page({
     background: ["../../static/images/biscuit-medium.jpeg", "../../static/images/red-orange-medium.jpeg", "../../static/images/orange-medium.jpeg"],
     indicatorDots: false,
     vertical: false,
-    autoplay: true,
+    autoplay: false,
     interval: 5000,
     duration: 500,
   },

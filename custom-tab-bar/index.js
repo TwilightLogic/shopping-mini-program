@@ -1,43 +1,66 @@
-Component({
+// custom-tab-bar/index.js
+Page({
+
+  /**
+   * 页面的初始数据
+   */
   data: {
-    selected: 0,
-    color: "#e67e22",
-    selectedColor: "#e67e22",
-    list: [{
-      "pagePath": "pages/home/home",
-      "text": "首页",
-      "iconPath": "../static/images/home-outline.png",
-      "selectedIconPath": "../static/images/home.png"
-    },
-    {
-      "pagePath": "pages/shopcart/shopcart",
-      "text": "购物车",
-      "iconPath": "../static/images/cart-outline.png",
-      "selectedIconPath": "../static/images/cart.png"
-    },
-    {
-      "pagePath": "pages/order/order",
-      "text": "订单",
-      "iconPath": "../static/images/list-outline.png",
-      "selectedIconPath": "../static/images/list.png"
-    },
-    {
-      "pagePath": "pages/my/my",
-      "text": "我的",
-      "iconPath": "../static/images/person-outline.png",
-      "selectedIconPath": "../static/images/person.png"
-    }]
+
   },
-  attached() {
+
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad(options) {
+
   },
-  methods: {
-    switchTab(e) {
-      const data = e.currentTarget.dataset
-      const url = data.path
-      wx.switchTab({url})
-      this.setData({
-        selected: data.index
-      })
-    }
+
+  /**
+   * 生命周期函数--监听页面初次渲染完成
+   */
+  onReady() {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面显示
+   */
+  onShow() {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面隐藏
+   */
+  onHide() {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面卸载
+   */
+  onUnload() {
+
+  },
+
+  /**
+   * 页面相关事件处理函数--监听用户下拉动作
+   */
+  onPullDownRefresh() {
+
+  },
+
+  /**
+   * 页面上拉触底事件的处理函数
+   */
+  onReachBottom() {
+
+  },
+
+  /**
+   * 用户点击右上角分享
+   */
+  onShareAppMessage() {
+
   }
 })

@@ -1,5 +1,15 @@
 {
   "dependencies": {
     "@flaticon/flaticon-uicons": "^2.2.0"
-  }
+  },
+  "name": "shopping-mini-program",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
