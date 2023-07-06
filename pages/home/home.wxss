@@ -4,12 +4,9 @@ body {
   background-color: #fdf2e9;
 }
 
-.page-box {
+.overview-box {
   position: relative;
-}
-
-.swiper-box {
-  margin-bottom: 256rpx;
+  margin-bottom: 320rpx;
 }
 
 .swiper-box swiper {
@@ -25,7 +22,7 @@ body {
 
 .item-list-container {
   position: absolute;
-  top: 45%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, 0%);
   background-color: #fdf2e9;
@@ -34,10 +31,10 @@ body {
   flex-direction: column;
   gap: 24rpx;
   border-radius: 22rpx;
-  box-shadow: 0 48rpx 96rpx rgba(0, 0, 0, 0.075);
+  box-shadow: 0 24rpx 48rpx rgba(0, 0, 0, 0.15);
 }
 
-.item-list-container .header--tertiary {
+.item-list-container .header--second {
   font-size: 36rpx;
   color: #170d03;
   display: inline-block;
@@ -106,6 +103,41 @@ body {
   color: #fdf2e9;
 }
 
-.ad-box {
-  margin-top: 256rpx;
+.vip-box {
+  display: flex;
+  gap: 16rpx;
+  padding: 32rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vip-box .vip-box-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.vip-box .vip-box-description .header--tertiary {
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #333;
+  border-bottom: 2rpx solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 12rpx;
+}
+
+.vip-box .vip-box-description .points-container {
+  margin-top: 12rpx;
+  font-size: 28rpx;
+  color: #555;
+}
+
+.vip-box .vip-box-description .points-container .points-container--points span {
+  font-weight: 600;
+}
+
+.vip-box image {
+  width: 65%;
+  height: 192rpx;
+  border-radius: 22rpx;
+  box-shadow: 0 24rpx 48rpx rgba(0, 0, 0, 0.15);
 }
