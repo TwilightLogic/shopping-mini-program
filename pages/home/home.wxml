@@ -43,4 +43,19 @@
     </view>
     <image src="/static/images/vip.jpeg" />
   </view>
+
+  <view class="ads-box">
+    <view class="ads-box-text">
+      <p class="tips">👇🏻 这里下面的轮播图可以是广告和宣传海报</p>
+    </view>
+    <view class="ads-swiper-container">
+      <swiper indicator-dots="{{indicatorDots_bottom}}" autoplay="{{autoplay}}" interval="{{interval_bottom}}" duration="{{duration}}">
+        <block wx:for="{{background_bottom}}" wx:key="*this">
+          <swiper-item>
+            <image src="{{item}}" />
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
 </view>

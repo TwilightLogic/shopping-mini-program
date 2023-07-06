@@ -10,6 +10,9 @@ Page({
     autoplay: true,
     interval: 5000,
     duration: 500,
+    background_bottom: ["../../static/images/tulip-medium.jpeg", "../../static/images/brand-new-tulip.jpeg", "../../static/images/wall.jpeg"],
+    interval_bottom: 4000,
+    indicatorDots_bottom: true
   },
 
   /**
