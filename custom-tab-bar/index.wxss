@@ -1,0 +1,37 @@
+.container {
+  position: relative;
+}
+
+.tab-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 96px;
+  background: white;
+  display: flex;
+  padding-bottom: env(safe-area-inset-bottom);
+  border: 1px solid #fff;
+  border-radius: 64px;
+  margin: 12px;
+  overflow: hidden;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.tab-bar-item {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tab-bar-item image {
+  width: 20px;
+  height: 20px;
+}
+
+.tab-bar-item view {
+  font-size: 10px;
+}
