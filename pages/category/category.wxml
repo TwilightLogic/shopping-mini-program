@@ -1,5 +1,28 @@
 <!--pages/category/category.wxml-->
-<navigation-bar default-data="{{}}"></navigation-bar>
-<view class="category-box">
-  <text>asdasd</text>
+<navigation-bar></navigation-bar>
+
+<view class="category-page">
+  <view class="category-page-header">
+    <p class="category-header--text">online shop</p>
+    <h3 class="category-header--tertiary">线上商店</h3>
+  </view>
+
+  <view class="category-box-swiper">
+    <scroll-view scroll-x="true">
+      <view class="nav">
+        <a href="#" class="item current">全部</a>
+        <a href="#" class="item">荔枝</a>
+        <a href="#" class="item">三华李</a>
+        <a href="#" class="item">百香果</a>
+        <a href="#" class="item">黄皮</a>
+        <a href="#" class="item">香蕉</a>
+        <a href="#" class="item">芭乐</a>
+        <a href="#" class="item">其他</a>
+        <a href="#" class="item">其他</a>
+        <a href="#" class="item">其他</a>
+      </view>
+    </scroll-view>
+  </view>
+
+  <view class="item-list"></view>
 </view>

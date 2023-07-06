@@ -1,1 +1,48 @@
 /* pages/category/category.wxss */
+
+.category-page {
+  margin: 0 32rpx;
+}
+
+.category-page .category-page-header {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2rpx solid rgba(0, 0, 0, .1);
+}
+
+.category-page .category-page-header .category-header--text {
+  font-size: 24rpx;
+  color: #666;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -.9rpx;
+}
+
+.category-page .category-page-header .category-header--tertiary {
+  color: #333;
+  font-weight: 500;
+  font-size: 48rpx;
+  letter-spacing: -1rpx;
+}
+
+.category-page .category-box-swiper {
+  margin-top: 8rpx;
+}
+
+.category-page .category-box-swiper .nav {
+  display: flex;
+  justify-content: start;
+  width: 1400rpx;
+  gap: 64rpx;
+}
+
+.category-page .category-box-swiper .nav .item {
+  color: #333;
+  font-weight: 400;
+  font-size: 24rpx;
+  text-align: left;
+}
+
+.category-page .category-box-swiper .nav .item.current {
+  border-bottom: 2px solid #e67e22;
+}
