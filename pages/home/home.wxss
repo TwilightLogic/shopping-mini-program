@@ -6,7 +6,7 @@ body {
 
 .overview-box {
   position: relative;
-  margin-bottom: 320rpx;
+  margin-bottom: 268rpx;
 }
 
 .swiper-box swiper {
