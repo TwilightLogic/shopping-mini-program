@@ -51,7 +51,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
-  gap: 20rpx;
+  gap: 32rpx;
   margin-top: 20rpx;
   color: #170d03;
 }
@@ -73,7 +73,7 @@
   .grid-container-item-desc
   .header-tertiary {
     font-size: 28rpx;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .grid-container
