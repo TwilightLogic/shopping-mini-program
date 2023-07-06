@@ -4,7 +4,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    background: ["../../static/images/biscuit-medium.jpeg", "../../static/images/red-orange-medium.jpeg", "../../static/images/orange-medium.jpeg"],
+    background: ["../../static/images/plants-with-wall.jpeg", "../../static/images/jellyfish.jpeg", "../../static/images/wine.jpeg"],
     indicatorDots: false,
     vertical: false,
     autoplay: true,
