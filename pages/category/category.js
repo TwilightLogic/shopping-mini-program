@@ -33,27 +33,30 @@ Page({
         image: '/static/images/orange-medium.jpeg',
       },
     ],
+    pageNo: 1,
+    pageSize: 10,
   },
   onReachBottom() {
-    console.log('1');
+    this.data.pageNo + 1;
+    this.getGoodsData();
   },
   onLoad() {
-    // this.getGoodsData();
+    this.getGoodsData();
   },
   // TODO: 接口谁来写啊靠
-  // getGoodsData() {
-  //   wx.request({
-  //     url: 'https://forkify-api.herokuapp.com/api/v2/recipes',
-  //     data: {
-  //       search: 'pizza',
-  //       key: '85e3249f-7e51-407e-ab2f-be2ce4403661',
-  //     },
-  //     header: {
-  //       'content-type': 'application/json',
-  //     },
-  //     success(res) {
-  //       console.log(res.data);
-  //     },
-  //   });
-  // },
+  getGoodsData() {
+    wx.request({
+      url: 'https://ys.lumingx.com/api/manage/GoodsList',
+      data: {
+        pageNo: this.data.pageNo,
+        pageSize: this.data.pageSize,
+      },
+      header: {
+        'content-type': 'application/json',
+      },
+      success(res) {
+        console.log(res.data.data);
+      },
+    });
+  },
 });
