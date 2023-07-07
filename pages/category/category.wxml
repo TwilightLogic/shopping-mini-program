@@ -25,7 +25,7 @@
   </view>
 
   <view class="grid-container">
-    <view wx:for="{{commodities}}" class="grid-container-item">
+    <view wx:for="{{commodities}}" wx:key="index" class="grid-container-item">
       <image class="grid-container-item--image" src="{{item.image}}" />
       <view class="grid-container-item-desc">
         <h4 class="header-tertiary">{{item.name}}</h4>
