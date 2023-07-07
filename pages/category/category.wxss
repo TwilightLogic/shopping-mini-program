@@ -72,21 +72,21 @@
   .grid-container-item
   .grid-container-item-desc
   .header-tertiary {
-    font-size: 28rpx;
-    font-weight: 400;
+  font-size: 28rpx;
+  font-weight: 400;
 }
 
 .grid-container
   .grid-container-item
   .grid-container-item-desc
   .item-desc--text {
-    font-size: 24rpx;
-  }
+  font-size: 24rpx;
+}
 
-  .grid-container
+.grid-container
   .grid-container-item
   .grid-container-item-desc
   .item-desc--text
   span {
-    font-weight: 600;
-  }
+  font-weight: 600;
+}

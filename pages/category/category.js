@@ -1,12 +1,20 @@
 const app = getApp();
 Page({
-    data: {
-        // 组件参数设置，传递到组件
-        defaultData: {
-            title: "我的主页", // 导航栏标题
-        }
-    },
-    onLoad() {
-        console.log(this.data.height)
-    }
-})
+  data: {
+    commodities: [
+      {
+        name: '埃塞尔比亚 挂耳咖啡',
+        price: 188,
+        image: '/static/images/orange-medium.jpeg',
+      },
+      {
+        name: '日晒瑰夏',
+        price: 288,
+        image: '/static/images/red-orange-medium.jpeg',
+      },
+    ],
+  },
+  onLoad() {
+    console.log(this.data.height);
+  },
+});
