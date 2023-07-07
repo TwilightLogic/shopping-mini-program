@@ -22,7 +22,20 @@ Page({
         price: 188,
         image: '/static/images/orange-medium.jpeg',
       },
+      {
+        name: '埃塞尔比亚 挂耳咖啡',
+        price: 188,
+        image: '/static/images/orange-medium.jpeg',
+      },
+      {
+        name: '埃塞尔比亚 挂耳咖啡',
+        price: 188,
+        image: '/static/images/orange-medium.jpeg',
+      },
     ],
+  },
+  onReachBottom() {
+    console.log('1');
   },
   onLoad() {
     // this.getGoodsData();

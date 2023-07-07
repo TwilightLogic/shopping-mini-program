@@ -44,7 +44,7 @@
 }
 
 .category-page .category-box-swiper .nav .item.current {
-  border-bottom: 2px solid #45260a;
+  border-bottom: 4rpx solid #45260a;
 }
 
 .grid-container {
