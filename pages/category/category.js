@@ -25,21 +25,22 @@ Page({
     ],
   },
   onLoad() {
-    this.getGoodsData();
+    // this.getGoodsData();
   },
-  getGoodsData() {
-    wx.request({
-      url: 'https://forkify-api.herokuapp.com/api/v2/recipes',
-      data: {
-        search: 'pizza',
-        key: '85e3249f-7e51-407e-ab2f-be2ce4403661',
-      },
-      header: {
-        'content-type': 'application/json',
-      },
-      success(res) {
-        console.log(res.data);
-      },
-    });
-  },
+  // TODO: 接口谁来写啊靠
+  // getGoodsData() {
+  //   wx.request({
+  //     url: 'https://forkify-api.herokuapp.com/api/v2/recipes',
+  //     data: {
+  //       search: 'pizza',
+  //       key: '85e3249f-7e51-407e-ab2f-be2ce4403661',
+  //     },
+  //     header: {
+  //       'content-type': 'application/json',
+  //     },
+  //     success(res) {
+  //       console.log(res.data);
+  //     },
+  //   });
+  // },
 });
